@@ -1,0 +1,6 @@
+role,first_name,last_name,email,password,phone_number,student_id,department,class_year
+student,John,Doe,john.doe@example.com,password123,+1234567890,CS001,Computer Science,1st Year
+student,Jane,Smith,jane.smith@example.com,password123,9876543210,CS002,Computer Science,2nd Year
+teacher,Alice,Johnson,alice.johnson@example.com,password123,+1-555-0100,,Mathematics,
+teacher,Bob,Williams,bob.williams@example.com,password123,555-0200,,Physics,
+student,Charlie,Brown,charlie.brown@example.com,password123,(555) 123-4567,EE001,Electrical Engineering,3rd Year

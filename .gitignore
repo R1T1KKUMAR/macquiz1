@@ -1,0 +1,600 @@
+# ===========================# Python
+
+# ROOT .gitignore for QuizzApp-RBMI__pycache__/
+
+# ===========================*.py[cod]
+
+*$py.class
+
+# ===========================*.so
+
+# PYTHON / BACKEND.Python
+
+# ===========================build/
+
+develop-eggs/
+
+# Byte-compiled / optimized / DLL filesdist/
+
+__pycache__/downloads/
+
+*.py[cod]eggs/
+
+*$py.class.eggs/
+
+lib/
+
+# C extensionslib64/
+
+*.soparts/
+
+sdist/
+
+# Distribution / packagingvar/
+
+.Pythonwheels/
+
+build/share/python-wheels/
+
+develop-eggs/*.egg-info/
+
+dist/.installed.cfg
+
+downloads/*.egg
+
+eggs/MANIFEST
+
+.eggs/
+
+lib/# Virtual Environment
+
+lib64/venv/
+
+parts/ENV/
+
+sdist/env/
+
+var/.venv
+
+wheels/
+
+share/python-wheels/# PyCharm
+
+*.egg-info/.idea/
+
+.installed.cfg
+
+*.egg# VS Code
+
+MANIFEST.vscode/
+
+
+
+# PyInstaller# Environment Variables
+
+*.manifest.env
+
+*.spec.env.local
+
+.env.*.local
+
+# Installer logs
+
+pip-log.txt# Database
+
+pip-delete-this-directory.txt*.db
+
+*.sqlite
+
+# Unit test / coverage reports*.sqlite3
+
+htmlcov/quizapp.db
+
+.tox/
+
+.nox/# Logs
+
+.coverage*.log
+
+.coverage.*logs/
+
+.cachepip-log.txt
+
+nosetests.xmlpip-delete-this-directory.txt
+
+coverage.xml
+
+*.cover# Node
+
+*.py,covernode_modules/
+
+.hypothesis/npm-debug.log*
+
+.pytest_cache/yarn-debug.log*
+
+cover/yarn-error.log*
+
+lerna-debug.log*
+
+# Translations.pnpm-debug.log*
+
+*.mo
+
+*.pot# Testing
+
+.pytest_cache/
+
+# Django stuff:.coverage
+
+*.loghtmlcov/
+
+local_settings.py.tox/
+
+db.sqlite3.nox/
+
+db.sqlite3-journalcoverage/
+
+*.cover
+
+# Flask stuff:*.py,cover
+
+instance/.hypothesis/
+
+.webassets-cache.cache
+
+nosetests.xml
+
+# Scrapy stuff:coverage.xml
+
+.scrapy*.coveragerc
+
+
+
+# Sphinx documentation# Build outputs
+
+docs/_build/dist/
+
+dist-ssr/
+
+# PyBuilder*.local
+
+.pybuilder/
+
+target/# Editor directories and files
+
+.DS_Store
+
+# Jupyter Notebook*.suo
+
+.ipynb_checkpoints*.ntvs*
+
+*.njsproj
+
+# IPython*.sln
+
+profile_default/*.sw?
+
+ipython_config.py*.swp
+
+*.swo
+
+# pyenv*~
+
+.python-version.idea/
+
+.vscode/
+
+# pipenv*.sublime-project
+
+Pipfile.lock*.sublime-workspace
+
+
+
+# poetry# OS
+
+poetry.lockThumbs.db
+
+.DS_Store
+
+# pdm.AppleDouble
+
+.pdm.toml.LSOverride
+
+
+
+# PEP 582# Temporary files
+
+__pypackages__/*.tmp
+
+*.temp
+
+# Celery stufftemp/
+
+celerybeat-scheduletmp/
+
+celerybeat.pid
+
+# Frontend specific
+
+# SageMath parsed files.npm
+
+*.sage.py.eslintcache
+
+.parcel-cache
+
+# Environments
+
+.env# React / Vite
+
+.venv# Editor files
+
+env/.vscode/*
+
+venv/!.vscode/extensions.json
+
+ENV/!.vscode/settings.json
+
+env.bak/.idea
+
+venv.bak/
+
+# Yarn
+
+# Spyder project settings.yarn/cache
+
+.spyderproject.yarn/unplugged
+
+.spyproject.yarn/build-state.yml
+
+.yarn/install-state.gz
+
+# Rope project settings.pnp.*
+
+.ropeproject
+
+# FastAPI
+
+# mkdocs documentation*.pid
+
+/sitecelerybeat-schedule
+
+celerybeat.pid
+
+# mypy
+
+.mypy_cache/# Jupyter Notebook
+
+.dmypy.json.ipynb_checkpoints
+
+dmypy.json*.ipynb
+
+
+
+# Pyre type checker# IPython
+
+.pyre/profile_default/
+
+ipython_config.py
+
+# pytype static type analyzer
+
+.pytype/# pyenv
+
+.python-version
+
+# Cython debug symbols
+
+cython_debug/# Backup files
+
+*.bak
+
+# ===========================*.backup
+
+# NODE.JS / FRONTEND*.old
+
+# ===========================
+
+# Generated batch files (optional - uncomment if you don't want to track them)
+
+# Dependencies# *.bat
+
+node_modules/
+
+jspm_packages/# Certificates
+
+*.pem
+
+# Testing*.key
+
+coverage/*.crt
+
+.nyc_output
+
+# Documentation build
+
+# Productiondocs/_build/
+
+build/site/
+
+dist/
+
+# MyPy
+
+# Misc.mypy_cache/
+
+.DS_Store.dmypy.json
+
+.env.localdmypy.json
+
+.env.development.local
+
+.env.test.local# Pyre type checker
+
+.env.production.local.pyre/
+
+
+
+# Logs# pytype static type analyzer
+
+npm-debug.log*.pytype/
+
+yarn-debug.log*
+
+yarn-error.log*# Cython debug symbols
+
+lerna-debug.log*cython_debug/
+
+pnpm-debug.log*
+
+# Project specific
+
+# Editor directories and filesbackend/app/db/*.db
+
+.vscode/*backend/quizapp.db
+
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# parcel-bundler cache
+.parcel-cache
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
+
+# ===========================
+# DATABASE
+# ===========================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# ===========================
+# OPERATING SYSTEM
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# IDEs and EDITORS
+# ===========================
+
+# JetBrains IDEs (PyCharm, WebStorm, IntelliJ IDEA, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================
+# PROJECT SPECIFIC
+# ===========================
+
+# Temporary batch files (if any are created again)
+*.bat
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Database files
+backend/app.db
+backend/*.db
+backend/*.sqlite
+
+# Upload directories
+uploads/
+media/
+
+# Static files collected for production
+staticfiles/
+static_root/
+
+# Documentation build files
+CLEANUP_COMPLETE.md
+FIXES_APPLIED.md
+
+# Test output
+test-results/
+playwright-report/
+
+# Mac specific
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ===========================
+# SECRETS & SENSITIVE DATA
+# ===========================
+
+# API Keys & Secrets
+*.pem
+*.key
+*.cert
+secrets.json
+credentials.json
+.secrets
+
+# Configuration files with sensitive data
+config.local.js
+config.local.json
+.env.production
+
+# ===========================
+# BUILD & CACHE
+# ===========================
+
+# Build outputs
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+_build
+.eggs
+.cache
+
+# Vite
+.vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo

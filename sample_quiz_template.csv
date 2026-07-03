@@ -1,0 +1,14 @@
+quiz_title,quiz_description,subject_id,duration_minutes,marks_per_correct,negative_marking,passing_marks,is_active,department,year,question_text,question_type,option_a,option_b,option_c,option_d,correct_answer,explanation
+Physics Chapter 1,Basic Physics Concepts,,30,1,0.25,40,true,Science,1st Year,What is the SI unit of force?,multiple_choice,Newton,Joule,Watt,Pascal,A,Force is measured in Newtons (N)
+Physics Chapter 1,Basic Physics Concepts,,30,1,0.25,40,true,Science,1st Year,Is energy conserved in a closed system?,true_false,,,,,true,Law of conservation of energy
+Physics Chapter 1,Basic Physics Concepts,,30,1,0.25,40,true,Science,1st Year,What is the formula for kinetic energy?,multiple_choice,1/2 mv²,mv,mv²,1/2 m²v,A,Kinetic energy = 1/2 × mass × velocity²
+Physics Chapter 1,Basic Physics Concepts,,30,1,0.25,40,true,Science,1st Year,Does velocity have direction?,true_false,,,,,true,Velocity is a vector quantity
+Physics Chapter 1,Basic Physics Concepts,,30,1,0.25,40,true,Science,1st Year,What is acceleration?,multiple_choice,Rate of change of velocity,Rate of change of position,Rate of change of force,Rate of change of momentum,A,Acceleration = change in velocity / time
+Mathematics Quiz,Algebra Basics,,45,2,0.5,50,true,Mathematics,2nd Year,What is the value of x if 2x + 5 = 15?,multiple_choice,5,10,15,20,A,2x + 5 = 15 → 2x = 10 → x = 5
+Mathematics Quiz,Algebra Basics,,45,2,0.5,50,true,Mathematics,2nd Year,Is (a + b)² = a² + b²?,true_false,,,,,false,(a + b)² = a² + 2ab + b²
+Mathematics Quiz,Algebra Basics,,45,2,0.5,50,true,Mathematics,2nd Year,What is the square root of 144?,multiple_choice,12,14,10,16,A,√144 = 12
+Mathematics Quiz,Algebra Basics,,45,2,0.5,50,true,Mathematics,2nd Year,Is zero a natural number?,true_false,,,,,false,Natural numbers start from 1
+Mathematics Quiz,Algebra Basics,,45,2,0.5,50,true,Mathematics,2nd Year,What is 5! (factorial)?,multiple_choice,120,100,60,24,A,5! = 5 × 4 × 3 × 2 × 1 = 120
+Chemistry Basics,Introduction to Chemistry,,20,1,0,40,true,Science,1st Year,What is the chemical symbol for water?,multiple_choice,H₂O,HO,H₂O₂,OH,A,Water has the chemical formula H₂O
+Chemistry Basics,Introduction to Chemistry,,20,1,0,40,true,Science,1st Year,Is the pH of pure water 7?,true_false,,,,,true,Pure water has a neutral pH of 7
+Chemistry Basics,Introduction to Chemistry,,20,1,0,40,true,Science,1st Year,How many atoms are in one molecule of CO₂?,multiple_choice,3,2,4,1,A,CO₂ has 1 carbon + 2 oxygen = 3 atoms total

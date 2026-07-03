@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://mac-quiz-2nj5.vercel.app/api/$1" },
+    { "source": "/health", "destination": "https://mac-quiz-2nj5.vercel.app/health" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

@@ -1,0 +1,61 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Deploy by pushing the repo and connecting it to Render, or use
+#   render blueprint apply  (requires Render CLI)
+
+services:
+
+  # ── Backend Web Service ──────────────────────────────────────────────
+  - type: web
+    name: macquiz-api
+    env: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        sync: false                    # set manually in Render dashboard
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "30"
+      - key: CORS_ORIGINS
+        value: https://macquiz.onrender.com,http://localhost:5173
+      - key: CORS_ALLOW_CREDENTIALS
+        value: "true"
+      - key: ADMIN_EMAIL
+        value: admin@macquiz.com
+      - key: ADMIN_PASSWORD
+        sync: false                    # set manually to avoid committing
+      - key: AI_ENABLED
+        value: "true"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-1.5-flash
+
+  # ── Frontend Static Site ─────────────────────────────────────────────
+  - type: web
+    name: macquiz
+    env: static
+    region: oregon
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://macquiz-api.onrender.com
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
