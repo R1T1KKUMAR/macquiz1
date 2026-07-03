@@ -3,8 +3,6 @@
 #   render blueprint apply  (requires Render CLI)
 
 services:
-
-  # ── Backend Web Service ──────────────────────────────────────────────
   - type: web
     name: macquiz-api
     env: python
@@ -12,9 +10,9 @@ services:
     plan: free
     rootDir: backend
     buildCommand: |
-  python --version
-  pip --version
-  pip install -r requirements.txt
+      python --version
+      pip --version
+      pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: DATABASE_URL
