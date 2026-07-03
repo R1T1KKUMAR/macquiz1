@@ -37,6 +37,15 @@ services:
         sync: false
       - key: GEMINI_MODEL
         value: gemini-1.5-flash
+        envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+
+      - key: DATABASE_URL
+        sync: false
+
+      - key: SECRET_KEY
+        generateValue: true
 
   # ── Frontend Static Site ─────────────────────────────────────────────
   - type: web
